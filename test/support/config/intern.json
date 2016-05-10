@@ -1,0 +1,13 @@
+{
+    "proxyPort": 9000,
+    "proxyUrl": "http://localhost:9000/",
+    "maxConcurrency": 1,
+    "loaderOptions": {
+        "packages": []
+    },
+    "suites": [
+     			"test/unit/exampleTests.js"
+     			],
+    "functionalSuites": [],
+    "excludeInstrumentation": "(node_modules|test)[\\\\/]"
+}
